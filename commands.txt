@@ -1,0 +1,32 @@
+    1  mkdir test1
+    2  ls
+    3  clr
+    4  cls
+    5  gitclone https://github.com/rakeshbarkam/test.git
+    6  git clone https://github.com/rakeshbarkam/test.git
+    7  mkdir test2
+    8  cd test2
+    9  git -v
+   10  mkdir test3
+   11  dir
+   12  cd test3
+   13  dir
+   14  git clone https://github.com/rakeshbarkam/test-web.git
+   15  git clone https://github.com/rakeshbarkam/test-website.git
+   16  ls
+   17  cd test-website/
+   18  ls
+   19  git -b sub-branch
+   20  git checkout -b test-branch
+   21  touch sample.txt
+   22  git status
+   23  git add sample.txt
+   24  git status
+   25  git commit -m "my first commit"
+   26   git config --global user.email "rakee_yadav@yahoo.com"
+   27   git config --global user.name "rakee_yadav"
+   28  git commit -m "my first commit"
+   29  git push origin test-branch
+   30  history
+   31  history > commands
+   32  history > commands.txt
